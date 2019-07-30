@@ -33,6 +33,8 @@ def find_the_cheese(string)
   cheese.each do |got_cheese| 
     if cheese_types.each.include?(got_cheese) 
       return got_cheese
+    else
+      return nil
     end
   end
 end

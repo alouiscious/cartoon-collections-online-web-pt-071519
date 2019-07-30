@@ -32,7 +32,6 @@ def find_the_cheese(string)
   string.each {|got_cheese| 
     return got_cheese if cheese_types.each.include?(got_cheese)
   }
-    string.each {|no_cheese| 
-    return nil if cheese_types.include?(no_cheese)  
+   puts "no cheese"
   }
 end

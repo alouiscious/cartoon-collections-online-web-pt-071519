@@ -33,5 +33,5 @@ def find_the_cheese(string)
     return got_cheese if cheese_types.each.include?(got_cheese)
   }
    puts "no cheese"
-  }
+
 end
